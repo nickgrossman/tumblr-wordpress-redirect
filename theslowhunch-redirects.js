@@ -2,7 +2,7 @@
 
 // create namespace
 var TSH = {};
-TSH.oldDomain = "theslowhunch.net";
+TSH.oldDomain = "nickgrossman.tumblr.com";
 TSH.newDomain = "wayback.theslowhunch.net";
 
 // function: redirect

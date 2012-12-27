@@ -12,7 +12,7 @@ TSH.redirect = function() {
 		var newURL = document.URL.replace(TSH.oldDomain, TSH.newDomain);
 		console.log(newURL);
 	}
-		
+	 	
 }
 
 // Fire away

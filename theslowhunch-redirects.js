@@ -11,8 +11,8 @@ TSH.redirect = function() {
 	
 	if (document.URL.search(TSH.searchString) != -1) {
 		var newURL = document.URL.replace(TSH.oldDomain, TSH.newDomain);
-		window.location.href = newURL;
-		window.location.reload();
+		window.location = newURL;
+		//window.location.reload();
 	}
 	 	
 }
